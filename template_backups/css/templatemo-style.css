@@ -82,12 +82,16 @@ h2 { font-size: 2.2rem; }
 }
 
 .tm-home-img-container {
-	background-image: url('../img/index-banner.jpg');
+	background-image: url('../img/tm-home-img.jpg');
 	background-size: auto;
 	background-position: center;
-	background-repeat: no-repeat; 
+	background-repeat: no-repeat;
 	height: 500px;
 }
+
+.tm-about-img-container { background-image: url('../img/tm-about-img.jpg');	}
+.tm-blog-img-container { background-image: url('../img/tm-blog-img.jpg'); }
+.tm-contact-img-container { background-image: url('../img/tm-contact-img.jpg'); }
 
 .tm-about-img-container,
 .tm-blog-img-container,
@@ -112,11 +116,6 @@ h2 { font-size: 2.2rem; }
 .tm-content-box {
 	max-width: 310px;
 	margin: 0 auto;
-}
-
-.tm-photo-credit {
-	text-align:right;
-	font-size: 0.8rem;
 }
 
 h3 { font-size: 1.65rem; }
@@ -201,7 +200,6 @@ h4 {
 .tm-copyright-text { 
 	color: #999999; 
 	margin-bottom: 0;
-	text-align: center;
 }
 
 hr { border-top: 1px solid #CCCCCC; }
